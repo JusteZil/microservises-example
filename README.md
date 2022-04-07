@@ -11,4 +11,8 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 
 ## Access microservises:
 * **Catalog API -> http://localhost:8000/swagger/index.html**
+* **Basket API -> http://localhost:8001/swagger/index.html**
+* **Portainer -> http://localhost:9000/**   --admin/admin123
+* **Discount API -> http://localhost:8002/swagger/index.html**
+* **pgAdmin PostgreSQL -> http://localhost:5050**   -- admin@aspnetrun.com/admin123
 
