@@ -8,6 +8,10 @@ https://github.com/aspnetrun/run-aspnetcore-microservices
 ```csharp
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 ```
+OR (when need to rebuild the images)
+```csharp
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build -d
+```
 
 ## Access microservises:
 * **Catalog API -> http://localhost:8000/swagger/index.html**

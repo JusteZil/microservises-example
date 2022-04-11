@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Discount.Grpc.Entities;
-//using Discount.Grpc.Protos;
+using Discount.Grpc.Protos;
 
 namespace Discount.Grpc.Mapper
 {
@@ -8,8 +8,8 @@ namespace Discount.Grpc.Mapper
     {
         public DiscountProfile()
         {
-            //CreateMap<Coupon, CouponModel>()
-            //    .ReverseMap();
+            CreateMap<Coupon, CouponModel>()
+                .ReverseMap();
         }
     }
 }
