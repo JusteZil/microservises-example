@@ -52,7 +52,7 @@ namespace Ordering.API.Controllers
             return NoContent();
         }
 
-        [HttpPut("{id}", Name = "DeleteOrder")]
+        [HttpDelete("{id}", Name = "DeleteOrder")]
         [ProducesResponseType((int)HttpStatusCode.NoContent)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
         public async Task<ActionResult<int>> DeleteOrder(int id)
