@@ -19,4 +19,6 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build -
 * **Portainer -> http://localhost:9000/**   --admin/admin123
 * **Discount API -> http://localhost:8002/swagger/index.html**
 * **pgAdmin PostgreSQL -> http://localhost:5050**   -- admin@aspnetrun.com/admin123
-
+* **Shopping.Aggregator -> http://locahlhost:8005/swagger/index.html**
+* **API Gateway -> http://localhost:8010/Catalog**
+* **Rabbit Management Dashboard -> http://localhost:15672**   -- guest/guest
